@@ -1,0 +1,19 @@
+{
+  "python.pythonPath": "/home/jose/miniforge3/envs/nlp_rag/bin/python",
+  "python.analysis.extraPaths": [
+    "/usr/local/cuda-12.4/lib64"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": false,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "python.formatting.provider": "black",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.flake8Args": [
+    "--max-line-length=120"
+  ],
+  "jupyter.jsonFileLocation": "~/.jupyter/jupyter_config.py",
+  "jupyter.useKernel": "pytorch",
+  "jupyter.interactiveWindowMode": "multiple"
+}
